@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clario</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="main">
+  <div class="nav">
+    <div class="logo"><img src="c.png" alt="Logo" /></div>
+    <div class="features">
+      <ul>
+        <li>Home</li>
+        <li>Track</li>
+        <li>Streak</li>
+        <li>About us</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="work">
+    <input type="text" placeholder="Enter your task" id="task"/>
+    <button id="Enter">ADD</button>
+   
+  </div>
+
+  <div class="timer">
+    <h2>Set Task time</h2>
+    <select name="timer" id="select">
+      <option value="25">25 Minutes</option>
+      <option value="60">60 Minutes</option>
+      <option value="90">90 Minutes</option>
+    </select>
+
+    <div id="countdown">00 : 00</div>
+    <div class="btn">
+      <button id="start" disabled>Start</button>
+      <button id="pause">Pause</button>
+      <button id="reset">Reset</button>   
+      
+      <div class="box">
+        <p id="work">Your Task</p>
+      </div>
+      
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

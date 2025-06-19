@@ -1,0 +1,163 @@
+.main{
+    background : linear-gradient(grey , black);
+}
+.nav .logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px ;
+    
+}
+.nav{
+    background-color: black;
+    margin-top: 10px;
+    width: 205vh;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+}
+
+
+
+.features ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+    
+}
+
+.nav .features ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    margin-left: 150px;
+}
+.nav .features ul li:hover{
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 120px;
+    height: 60px;
+
+}
+
+.work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.work input{
+    display: flex;
+    width: 80vh;
+    height: 40px;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    background-color: rgb(43, 43, 43);
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input::placeholder{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.work #Enter{
+    background-color: rgb(0, 193, 0);
+    color: white;
+    width: 80px;
+    height: 40px;
+    margin-left: 15px;
+    border: none;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: all 0.2s ease-out;
+
+}
+.work #Enter:hover{
+    background-color: aliceblue;
+    color: green;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.timer{
+    display: flex ;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+}
+.timer #select{
+    width: 30vh;
+    height: 40px;
+    margin-right: 110px;
+    background-color: rgb(0, 234, 255);
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.timer h2{
+    text-align: center;
+    margin-right: 125px;
+    margin-top: 20px;
+    color: white;
+}
+#countdown{
+    width: 70vh;
+    height: 250px;
+    background-color: rgb(107, 255, 107);
+    margin-top: 15px;
+    margin-right: 100px;
+    border-radius: 25px;
+    font-size: 80px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+#work{
+    color: hsl(250, 96%, 10%);
+    font-size: 40px;
+    font-weight: bold;
+    
+    
+}
+.box{
+    width: 100vh;
+    height: 100px;
+    background-color: rgb(201, 228, 253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn button{
+    position: relative;
+    left: 195px;
+     margin-top: 20px;    
+     margin-bottom: 20px;
+     width: 80px;
+     height: 40px;
+     font-weight: bolder;
+     font-size: 20px;
+    
+}
